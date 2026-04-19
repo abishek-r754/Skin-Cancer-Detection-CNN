@@ -18,6 +18,8 @@ This project aims to develop an automated system that can classify skin lesions 
 - Dataset: HAM10000 (Human Against Machine with 10000 training images)
 - Format used: Skin Cancer MNIST (28x28 RGB version)
 - Total classes: 7
+Dataset Source: https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
+
 
 ### Classes:
 1. Melanocytic nevi  
@@ -68,11 +70,18 @@ The trained model was used to predict the class of unseen test images.
 ---
 
 ## Results
+
 - Training Accuracy: ~72%  
-- Validation Accuracy: ~72%  
+- Validation Accuracy: ~72%
 
-The model performed well on dominant classes but struggled with minority classes due to dataset imbalance.
+### Accuracy Graph
+![Accuracy](results/accuracy.png)
 
+### Loss Graph
+![Loss](results/loss.png)
+
+### Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
 ---
 
 ## Key Observations
@@ -132,7 +141,6 @@ This project was developed over a period of 4 months (January – April) as part
 ## Conclusion
 This project demonstrates the use of deep learning in medical image classification. While the model achieves moderate accuracy, it highlights the importance of data quality and model optimization in real-world applications.
 
-https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
 
 ---
 
