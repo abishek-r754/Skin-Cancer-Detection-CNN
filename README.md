@@ -132,6 +132,8 @@ This project was developed over a period of 4 months (January – April) as part
 ## Conclusion
 This project demonstrates the use of deep learning in medical image classification. While the model achieves moderate accuracy, it highlights the importance of data quality and model optimization in real-world applications.
 
+https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
+
 ---
 
 ## Author
