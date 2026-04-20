@@ -74,9 +74,9 @@ The trained model was used to predict the class of unseen test images.
 - Training Accuracy: ~72%  
 - Validation Accuracy: ~72%
 
-![Accuracy](accuracy.png)
-![Loss](loss.png)
-![Confusion Matrix](confusion_matrix.png)
+![Accuracy](results/accuracy.png)
+![Loss](results/loss.png)
+![Confusion Matrix](results/confusion_matrix.png)
 
 ## Key Observations
 - Class imbalance significantly affects prediction performance  
